@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Impostos Simples Nacional</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="..\css\stylesa1f.css">
+</head>
+<body>
+ <nav>
+    <ul>
+      <li><a href="..\menu.html">MENU PRINCIPAL</a></li>
+      <li><a href="anexo1.html">VOLTAR PRA GUIA ANTEIOR</a></li>
+    </ul>
+  </nav>
+
+    <h1>Cálculo de Impostos - Anexo I</h1>
+
+ <form id="taxForm">
+        <label for="rbt12">Receita Bruta Acumulada dos Últimos 12 Meses (RBT):</label>
+        <input type="text" id="rbt12" name="rbt12" required><br><br>
+
+        <label for="rbm">Receita Bruta do Mês (RBM):</label>
+        <input type="text" id="rbm" name="rbm" required><br><br>
+
+        <label for="substituicao">Substituição Tributária:</label>
+        <select id="substituicao" name="substituicao">
+            <option value="com">Com Substituição</option>
+            <option value="sem">Sem Substituição</option>
+        </select><br><br>
+
+       <div class="button-container">
+          <button type="button" onclick="calcularImposto()">Calcular Imposto</button>
+       </div>
+    </form>
+
+    <h2>Resultado</h2>
+    <p id="resultado"></p>
+
+	<script src="..\js\scripta1f.js"></script>
+</body>
+</html>

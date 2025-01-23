@@ -1,0 +1,70 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 20px 2;
+  text-align: center;
+  margin-bottom: 20px; /* Adiciona espaçamento entre o header e a nav */
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+ color: #4CAF50;
+} 
+
+p {
+  margin: 15px 0;
+  text-align: justify;
+}
+
+section.simples {
+  padding: 20px;
+  text-align: justify;
+}
+
+li {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #4CAF50;
+  margin: 0;
+  padding: 0;
+  height: 50px; /* Diminui a altura */
+  align-items: center; /* Centraliza verticalmente os itens */
+}
+
+nav ul li {
+  margin: 0 15px;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Adiciona transição para o efeito de zoom */
+}
+
+nav ul li a:hover {
+  background-color: #45a049;
+  transform: scale(1.05); /* Efeito de zoom */ 
+}
