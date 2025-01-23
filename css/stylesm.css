@@ -1,10 +1,28 @@
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f9;
+  font-size: 16px;
   color: #333;
   margin: 0;
   padding: 0;
   line-height: 1.6;
+}
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 600px) {
+   body {
+      font-size: 14px;
+   }
+
+   .container {
+      width: 100%;
+      padding: 10px;
+   }
+
+   .menu {
+      display: block;
+      width: 100%;
+   }
 }
 
 header {
